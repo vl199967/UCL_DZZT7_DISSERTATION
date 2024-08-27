@@ -18,16 +18,7 @@ images. Change the variables input_directory and output_directory
 according to your source and output directories. Put this in the same
 directory with Equirec2Perspec.py for this to work.
 
-Amsterdam.zip - The original image dataset. 4,900 Panoramic Street-View Images taken from
-various locations in Amsterdam.
-
-900_pano.zip - 900 panoramic Images randomly selected from the original dataset. This
-is provided because the results of random selection cannot be replicated.
-
-3600_svi.zip - 3600 normal perspective images. We split the 900 panoramas into four
-view angles (0, 90, 120, 270), producing 900*4 = 3,600 stree-view images.
-You can reproduce this dataset by using 900_pano as the input to
-pano2norm.py
+The image dataset used for this study is too big for github. To access it use this Google Drive link: 
 
 INDELING_STADSDEEL.csv - The shapefile of the 9 boroughs of Amsterdam. Available at the Amsterdam
 government website.
